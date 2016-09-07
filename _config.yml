@@ -1,28 +1,40 @@
-name: Audere
-favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.37256
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 0.6875
+  brandStrength: 0.5053763
+  lightness: 0.5
+  brandColors:
+    - '#FFFFFF'
+    - '#020202'
+    - '#656565'
+    - '#A1A1A1'
+    - '#444444'
+  rhythmicContrast: 0.5
 cta:
-  domain: null
   bucket: null
   version: null
+  domain: null
+name: Audere
+favicon: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#fff5f4'
-    - '#646464'
-    - '#1d1d1d'
-    - '#9f9f9f'
-    - '#ccc2c1'
-  brandStrength: 0.5625
-  lightness: 0.5
-  saturation: 0.6875
-  rhythmicContrast: 0.5
-purpose: []
+typography_spectrum: 0.37256
+layout_spectrum: 1
